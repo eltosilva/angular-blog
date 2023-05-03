@@ -1,3 +1,3 @@
 # angular-blog
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-d4thez)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/dio-blog)

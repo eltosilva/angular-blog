@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { dataFake } from './data/data-fake';
+import { Post } from './data/post';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  constructor() {}
+  posts: Post[];
+  constructor() {
+    this.posts = dataFake;
+  }
 
   ngOnInit() {}
 }

@@ -1,3 +1,9 @@
-<p>
-big-card works!
-</p>
+<div class="card">
+  <div class="card__header">
+    <img [src]="post.photoCover" [alt]="post.title" />
+  </div>
+  <div class="card__body">
+    <h2 class="card_title">{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+  </div>
+</div>
