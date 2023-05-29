@@ -1,0 +1,15 @@
+* {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+app-big-card {
+  width: 20rem;
+  display: block;
+}

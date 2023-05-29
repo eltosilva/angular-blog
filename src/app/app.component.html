@@ -1,0 +1,12 @@
+<header>
+  <app-menu-bar></app-menu-bar>
+  <app-menu-title>Elto Silva</app-menu-title>
+</header>
+<main>
+  <div class="destaque">
+    <app-big-card [post]="posts[0]"></app-big-card>
+  </div>
+  <aside class="mais-vistos">
+    <app-small-card *ngFor="let post of posts" [post]="post"></app-small-card>
+  </aside>
+</main>
